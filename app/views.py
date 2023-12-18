@@ -16,3 +16,4 @@ def homepage(request):
     emps= Employee.objects.all()
     return render(request,'home.html',{"name":"shradha Bidwai","all_emps":emps})
 
+logger.info("homepag")
