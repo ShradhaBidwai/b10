@@ -105,3 +105,9 @@ class CarModel(models.Model):
 
 # profile:
 # bio id   person id  student birthdate
+        
+
+
+class employee(models.model):
+    first_name = models.CharField(max_length=50)
+    
